@@ -25,4 +25,13 @@
 body {
     background-image: url('1309213.jpg');
     background-size: cover;
-  }
+}
+#td:hover {
+    -ms-transform: scale(1.2); /* IE 9 */
+    -webkit-transform: scale(1.2); /* Safari 3-8 */
+    transform: scale(1.2); 
+}
+input[type="text"]
+{
+    font-size:18px;
+}

@@ -10,38 +10,38 @@
 </head>
 <body>
     <table class="tab" 
-      cellpadding="15"
-      cellspacing="5"> 
+      cellpadding="10"
+      cellspacing="6"> 
         <tr>
-            <td colspan="4"><input type="text" id="result" disabled /></td>
+            <td colspan="4"><input type="text" id="result" disabled style="width: 20em;  height: 3em;"/></td>
         </tr>
         <tr id="tr"> 
-            <td id="td" colspan="2"><input  value="C" onclick="clearScreen()"  type="button" style="background-color: rgb(194, 142, 100);  width: 8em;  height: 3em;"/></td>
-            <td id="td" colspan="2"><input  value="CE" onclick="clearElement()"  type="button" style="background-color: rgb(194, 142, 100); width: 8em;  height: 3em;"/></td>
+            <td id="td" colspan="2"><input  value="C" onclick="clearScreen()"  type="button" style="background-color: rgb(194, 142, 100);  width: 10em;  height: 5em;"/></td>
+            <td id="td" colspan="2"><input  value="CE" onclick="clearElement()"  type="button" style="background-color: rgb(194, 142, 100); width: 10em;  height: 5em;"/></td>
         </tr>
         <tr id="tr"> 
-            <td id="td" ><input  value="7" onclick = "f('7')"  type="button" style="background-color: rgb(133, 170, 202); width: 3em;  height: 3em;"/></td>
-            <td id="td" ><input  value="8" onclick="f('8')"  type="button" style="background-color: rgb(133, 170, 202); width: 3em;  height: 3em;"/></td>
-            <td id="td" ><input  value="9" onclick="f('9')"  type="button" style="background-color: rgb(133, 170, 202); width: 3em;  height: 3em;"/></td>
-            <td id="td" ><input  value="/" onclick="f('/')"  type="button" style="background-color: rgb(133, 202, 179); width: 3em;  height: 3em;"/></td>
+            <td id="td" ><input  value="7" onclick = "f('7')"  type="button" style="background-color: rgb(133, 170, 202); width: 4em;  height: 4em;"/></td>
+            <td id="td" ><input  value="8" onclick="f('8')"  type="button" style="background-color: rgb(133, 170, 202); width: 4em;  height: 4em;"/></td>
+            <td id="td" ><input  value="9" onclick="f('9')"  type="button" style="background-color: rgb(133, 170, 202); width: 4em;  height: 4em;"/></td>
+            <td id="td" ><input  value="/" onclick="f('/')"  type="button" style="background-color: rgb(133, 202, 179); width: 4em;  height: 4em;"/></td>
         </tr>
         <tr id="tr"> 
-            <td id="td" ><input  value="4" onclick="f('4')"  type="button" style="background-color: rgb(133, 170, 202); width: 3em;  height: 3em;"/></td>
-            <td id="td" ><input  value="5" onclick="f('5')"  type="button" style="background-color: rgb(133, 170, 202); width: 3em;  height: 3em;"/></td>
-            <td id="td" ><input  value="6" onclick="f('6')"  type="button" style="background-color: rgb(133, 170, 202); width: 3em;  height: 3em;"/></td>
-            <td id="td" ><input  value="*" onclick="f('*')"  type="button" style="background-color: rgb(133, 202, 179); width: 3em;  height: 3em;"/></td>
+            <td id="td" ><input  value="4" onclick="f('4')"  type="button" style="background-color: rgb(133, 170, 202); width: 4em;  height: 4em;"/></td>
+            <td id="td" ><input  value="5" onclick="f('5')"  type="button" style="background-color: rgb(133, 170, 202); width: 4em;  height: 4em;"/></td>
+            <td id="td" ><input  value="6" onclick="f('6')"  type="button" style="background-color: rgb(133, 170, 202); width: 4em;  height: 4em;"/></td>
+            <td id="td" ><input  value="*" onclick="f('*')"  type="button" style="background-color: rgb(133, 202, 179); width: 4em;  height: 4em;"/></td>
         </tr>
         <tr id="tr"> 
-            <td id="td" ><input  value="1" onclick="f('1')"  type="button" style="background-color: rgb(133, 170, 202); width: 3em;  height: 3em;"/></td>
-            <td id="td" ><input  value="2" onclick="f('2')"  type="button" style="background-color: rgb(133, 170, 202); width: 3em;  height: 3em;"/></td>
-            <td id="td" ><input  value="3" onclick="f('3')"  type="button" style="background-color: rgb(133, 170, 202); width: 3em;  height: 3em;"/></td>
-            <td id="td" ><input  value="+" onclick="f('+')"  type="button" style="background-color: rgb(133, 202, 179); width: 3em;  height: 3em;"/></td>
+            <td id="td" ><input  value="1" onclick="f('1')"  type="button" style="background-color: rgb(133, 170, 202); width: 4em;  height: 4em;"/></td>
+            <td id="td" ><input  value="2" onclick="f('2')"  type="button" style="background-color: rgb(133, 170, 202); width: 4em;  height: 4em;"/></td>
+            <td id="td" ><input  value="3" onclick="f('3')"  type="button" style="background-color: rgb(133, 170, 202); width: 4em;  height: 4em;"/></td>
+            <td id="td" ><input  value="+" onclick="f('+')"  type="button" style="background-color: rgb(133, 202, 179); width: 4em;  height: 4em;"/></td>
         </tr>
         <tr id="tr"> 
-            <td id="td" ><input  value="." onclick="f('.')"  type="button" style="background-color: rgb(171, 178, 184); width: 3em;  height: 3em;"/></td>
-            <td id="td" ><input  value="0" onclick="f('0')"  type="button" style="background-color: rgb(133, 170, 202); width: 3em;  height: 3em;"/></td>
-            <td id="td" ><input  value="-" onclick="f('-')"  type="button" style="background-color: rgb(133, 202, 179); width: 3em;  height: 3em;"/></td>
-            <td id="td" ><input  value="=" onclick="calculate()"  type="button" style="background-color: rgb(39, 115, 182); width: 3em;  height: 3em;"/></td>
+            <td id="td" ><input  value="." onclick="f('.')"  type="button" style="background-color: rgb(171, 178, 184); width: 4em;  height: 4em;"/></td>
+            <td id="td" ><input  value="0" onclick="f('0')"  type="button" style="background-color: rgb(133, 170, 202); width: 4em;  height: 4em;"/></td>
+            <td id="td" ><input  value="-" onclick="f('-')"  type="button" style="background-color: rgb(133, 202, 179); width: 4em;  height: 4em;"/></td>
+            <td id="td" ><input  value="=" onclick="calculate()"  type="button" style="background-color: rgb(39, 115, 182); width: 4em;  height: 4em;"/></td>
         </tr>
     </table>
 </body>
