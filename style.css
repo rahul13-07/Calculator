@@ -1,0 +1,28 @@
+.tab{
+    border: 4px solid rgb(155, 45, 45);
+    border-spacing: 4;
+    background-color: cyan;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 6%;
+}
+#td{
+    border: 4px solid black;
+    border-top: 4px solid black;
+    border-right: 4px solid black;
+    border-bottom: 4px solid black;
+    background-color: rgb(106, 117, 117);
+}
+#result{
+    padding: 12px 20px;
+    width: 80%;
+    height :fit-content;
+    text-align: right;
+    color: brown;
+    background-color:rgb(194, 186, 202);
+}
+body {
+    background-image: url('1309213.jpg');
+    background-size: cover;
+  }
